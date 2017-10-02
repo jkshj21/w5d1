@@ -1,0 +1,44 @@
+body{
+  font-family: 'Roboto';
+  font-weight:300, 400, 700;
+  font-size: 36px, 24px, 16px, 14px, 12px;
+}
+
+.header {
+
+}
+
+.header-nav{
+  background-color: red;
+  text-color:white;
+  display:flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.header-logo{
+  float:left;
+}
+a {
+  
+}
+
+li{
+  padding: 30px 16px;
+  float:left;
+  border-left: 1px white;
+  border-right: 1px white;
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-bottom: none;
+  text-decoration: none;
+}
+.header-list{
+  float:right;
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  text-align: center;
+}
